@@ -100,7 +100,9 @@ const Index = () => {
               <a href="#features" className="text-sm font-medium hover:text-primary transition-colors">Возможности</a>
               <a href="#how-it-works" className="text-sm font-medium hover:text-primary transition-colors">Как работает</a>
               <a href="#examples" className="text-sm font-medium hover:text-primary transition-colors">Примеры</a>
-              <Button>Начать</Button>
+              <Button asChild>
+                <a href="https://t.me/SmokiAIBot?start=6447002426" target="_blank" rel="noopener noreferrer">Начать</a>
+              </Button>
             </div>
           </div>
         </div>
@@ -120,9 +122,11 @@ const Index = () => {
             Мощные алгоритмы, простой интерфейс, безграничные возможности.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
-            <Button size="lg" className="text-lg px-8 group">
-              Попробовать бесплатно
-              <Icon name="ArrowRight" size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
+            <Button size="lg" className="text-lg px-8 group" asChild>
+              <a href="https://t.me/SmokiAIBot?start=6447002426" target="_blank" rel="noopener noreferrer">
+                Попробовать бесплатно
+                <Icon name="ArrowRight" size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-8">
               Узнать больше
@@ -241,9 +245,11 @@ const Index = () => {
               <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
                 Присоединяйтесь к тысячам пользователей, которые уже используют нашу нейросеть
               </p>
-              <Button size="lg" className="text-lg px-10">
-                Начать использовать
-                <Icon name="ArrowRight" size={20} className="ml-2" />
+              <Button size="lg" className="text-lg px-10" asChild>
+                <a href="https://t.me/SmokiAIBot?start=6447002426" target="_blank" rel="noopener noreferrer">
+                  Начать использовать
+                  <Icon name="ArrowRight" size={20} className="ml-2" />
+                </a>
               </Button>
             </CardContent>
           </Card>
